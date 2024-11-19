@@ -1,0 +1,125 @@
+html{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0%;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: fuchsia white;
+  /* scroll-snap-type: y mandatory */
+}
+
+body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+  color: fuchsia;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+section{
+  width: 90vw;
+  margin: 0px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  scroll-snap-align: start;
+}
+
+h1{
+  font-size: 200px;
+  margin: 0px;
+}
+
+h2{
+  font-size: 75px;
+  background-color: fuchsia;
+  color: white;
+  margin: 0px;
+}
+
+h6{
+  margin: 0px;
+  font-size: 30px;
+  font-style: italic;
+}
+
+p{
+  position: relative;
+  width: 100%;
+  margin: 0px;
+  font-size: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+p.phoebe-is{
+  text-align: center;
+  color: fuchsia;
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+li{
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+ul{
+  margin-top: 30px;
+}
+
+div{
+margin-top: 100px;
+}
+
+
+div.phoebe-is{
+  margin-top: 50px;
+}
+
+
+div#pasteLinkDiv{
+  width: 100vw;
+  height: 6vh;
+  position: fixed;
+  bottom: 0px;
+  vertical-align: bottom;
+}
+
+
+
+button{
+  width: 7vw;
+  display: inline;
+  padding: 0%;
+  height: 43px;
+  margin: 2px;
+  vertical-align: top;
+  color: black;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+button:hover{
+  background-color: black;
+  color: white;
+}
+
+img{
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+
+.token.comment { color: fuchsia !important; } /* Comments */
+.token.keyword { color: blue !important; font-weight: bold !important; } /* Keywords */
+.token.function { color: blue !important; } /* Function names */
+.token.number { color: black !important; } /* Numbers */
+.token.operator { color: black !important; } /* Operators */
+.token.builtin{ color: blue !important; }
+.token.class-name{ color: fuchsia !important; }
+.token.triple-quoted-string{ color: fuchsia !important;}

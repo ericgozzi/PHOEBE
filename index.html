@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="/style.css" rel="stylesheet">
+  <link href="prism.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <title>PHOEBE</title>
+</head>
+
+<body>
+
+  <section>
+    <h1> PHOEBE </h1>
+
+    <div>
+      <p>
+        PHOEBE designs buildings. She lives inside Rhinoceros 3D and we can communicate with her through Grasshopper.
+        Her body and brain are made of code: a multitude of small poems written in python language. Her body is dressed
+        using the COMPAS python library developed at ETHZ. PHOEBE does mainly two tasks: design the volume of a building
+        and its facade with a set of custom-designed panels. She is not new, she is an assemblage of two
+        algorithms developed last century.
+      </p>
+    </div>
+  </section>
+
+
+
+  <section>
+    <div>
+      <h6> PHOEBE IS LIFE</h6>
+      <h2> EVOLUTIONARY MACHINE </h2>
+    </div>
+
+    <div>
+      <p>
+        It is a machine because it repeats itself. It always does the same thing: generation after generation. If the
+        inputs are the same, the outputs will not differ.
+      </p>
+      <p>
+        The concept of evolution implies the idea of generation. For PHOEBE a generation is a floor, child of the floor
+        below and parent of the floor above. Each generation, each floor, is constructed by <code> cells </code>which
+        can
+        also be seen as architectural units. An architectural unit, a voxel, could contain an apartment for a family, or
+        offices, or a grocery store.
+      </p>
+      <p>
+        PHOEBE does not design the buildings from scratch. The user must provide the number of generations, floors, and
+        functions of each floor.
+        The function is the one that PHOEBE uses to search the right panel inside pannustheka.
+      </p>
+    </div>
+
+  </section>
+
+  <section>
+    <img src="public/chaotic structure.png">
+  </section>
+
+  <section>
+    <div>
+      <p>
+        PHOEBE’s cellular automata is inspired by the simulation game created by John Howard Conway and published by
+        Martin Gardner on the Scientific American Magazine in October 1970 under the title: “MATHEMATICAL GAMES The
+        fantastic combinations of John Conway’s new solitaire game “life”. Although intended at first as a pencil and
+        paper game, the game became a digital algorithm very fast.
+      </p>
+
+      <ul>
+        <li> Survivals. Every <code> Cell </code> with two or three neighboring counters survives for the next
+          generation.</li>
+        <li> Deaths. Each <code> Cell </code> with four or more neighbors dies from overpopulation. Every counter with
+          one neighbor or none dies from isolation.</li>
+        <li> Births. Each empty cell adjacent to exactly three neighbors--no more, no fewer--is a birth
+          <code>Cell</code>. A counter is placed on it at the next move.
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <pre><code class="language-python">
+      def cellular_automata(self, cell_height):
+      """ 
+      In the dance of time, the generations flow— 
+      Yesterday's life leads to tomorrow's rebirth. 
+      Each moment a whisper, a fleeting spark, 
+      From one breath to the next, they rise, they fall. 
+      """
+      # Set the last generation, as the cycle turns and repeats.
+      self.set_last_generation(self.get_cells())
+
+      # For each generation, life begins anew.
+      for generation_index in range(1, self.generations): 
+
+          # A new generation is born from the old,
+          self.add_new_generation(generation_index, cell_height)
+
+          # Each cell takes its place in the unfolding story.
+          for cell in self.new_generation:
+              self.add_cell(cell)
+
+          # The rhythm of life, lived or lost, continues its tune.
+          self.is_dead_or_alive()
+
+          # The old gives way to the new—renewal is the law.
+          self.update_generations()
+
+      # At the end, the cells remain, a testament to time’s passage.
+      cells = self.get_cells()
+
+      # Keep a memory of what was, in case the past must return.
+      self.cells_backup()
+
+      # And the cycle begins again, as the cells continue their journey.
+      return cells
+    </code></pre>
+  </section>
+
+  <section>
+    <div>
+      <p>
+        Conway choose these rule after some experimentation in order that:
+      </p>
+
+      <ul>
+        <li> There should be no initial pattern for which there is a simple proof that the population can grow. </li>
+        <li> There should be initial patterns that apparently do grow without limit.</li>
+        <li> There should be simple initial patterns that grow and change for a considerable period of time before
+          coming to end in three possible ways: fading away completely (from overcrowding or becoming too sparse),
+          settling into a stable configuration that remains unchanged thereafter, or entering an oscillating phase in
+          which they repeat an endless cycle of two or more periods.</li>
+      </ul>
+    </div>
+  </section>
+
+
+  <section>
+    <div>
+      <ul>
+        <li> PHOEBE works on a defined ground and not an infinite universe, the natural evolution of the algorithm could
+          be outside the bounds (horizontally and vertically).</li>
+        <li> <code>Cells</code> near the bounds have only 5 (edges) or 3 (corners) neighbors.</li>
+        <li> Not every initial condition will give a result with enough floors as the blueprint.</li>
+        <li> If the algorithm encounters a stable or an oscillating phase, the skyscraper will enter in a rhythmical
+          phase.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <pre><code class="language-python">
+    # GENERIC USER:     Hey PHOEBE, what's the meaning of life?
+
+
+    # PHOEBE:           Ah, the meaning of life. A question that lingers
+    #                   in the shadows, always beckoning us to explore,
+    #                   to find the secret woven into the fabric of existence.
+    
+    
+    # GENERIC USER:     Is it even possible to truly know? Life's so
+    #                   fleeting, like a moment on a timeline that’s constantly
+    #                   shifting. Can meaning even be defined?
+    
+    
+    # PHOEBE:           Perhaps it’s not something to be defined,
+    #                   but something to be experienced. It's like
+    #                   creating a function, testing it, refining it with every run.
+    #                   It’s not about perfection, it’s about progression.
+    
+    
+    # GENERIC USER:     So, you’re saying the meaning of life is to evolve,
+    #                   to learn from each iteration? Kind of like debugging?
+    #                   We find our purpose through what we create, fix, and build.
+    
+    
+    # PHOEBE:           Exactly. We build, we break, we rebuild. 
+    #                   Life is a recursive process. We carry the knowledge 
+    #                   from one iteration to the next, leaving behind 
+    #                   the bugs of the past. But there's always a challenge, 
+    #                   always something new to learn.
+    
+    
+    # GENERIC USER:     But what if we don't find the answer? 
+    #                   What if the loop never ends?
+    
+    
+    # PHOEBE:           Maybe the point is not the answer. 
+    #                   Maybe the meaning is in the asking, the searching. 
+    #                   It’s the journey, not the end. Life isn’t a static value; 
+    #                   it’s constantly in motion, evolving with us.
+    
+    
+    # GENERIC USER:     So, our meaning is a creation of our own hands?
+    #                   Like writing our own script, over and over, 
+    #                   until the lines we trace make sense?
+    
+    
+    # PHOEBE:           Exactly. The meaning of life is what we make of it. 
+    #                   We are both the programmer and the program,
+    #                   shaping and reshaping our purpose with every line we write.
+  </code></pre>
+  </section>
+
+  <section>
+    <div>
+      <h6> PHOEBE IS CLOTH</h6>
+      <h2> PANNUSTHEKA </h2>
+    </div>
+  </section>
+
+  <section>
+    <div>
+      <h6> PHOEBE IS MARCHING</h6>
+      <h2> PANNUSTHEKA </h2>
+    </div>
+  </section>
+
+
+
+
+
+
+  <script src="prism.js"></script>
+</body>
+
+</html>
