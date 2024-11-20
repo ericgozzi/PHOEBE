@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="/style.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
   <link href="prism.css" rel="stylesheet" />
   <link rel="shortcut icon" href="/favicon.ico" />
   <title>PHOEBE</title>
@@ -12,9 +12,8 @@
 
 <body>
 
-  <section>
+  <section class="slide">
     <h1> PHOEBE </h1>
-
     <div>
       <p>
         PHOEBE designs buildings. She lives inside Rhinoceros 3D and we can communicate with her through Grasshopper.
@@ -24,16 +23,21 @@
         algorithms developed last century.
       </p>
     </div>
+    <div>
+      <a href="./index.html#evolutionary-machine"> PHOEBE IS LIFE </a>
+      <a href="./index.html#pannustheka"> PHOEBE IS CLOTH </a>
+      <a href="./index.html#marching-cubes"> PHOEBE IS MARCHING </a>
+      <a href="./index.html#poetry"> PHOEBE IS POETRY </a>
+    </div>
   </section>
 
 
 
-  <section>
+  <section id="evolutionary-machine">
     <div>
       <h6> PHOEBE IS LIFE</h6>
       <h2> EVOLUTIONARY MACHINE </h2>
     </div>
-
     <div>
       <p>
         It is a machine because it repeats itself. It always does the same thing: generation after generation. If the
@@ -55,7 +59,7 @@
 
   </section>
 
-  <section>
+  <section class="slide centered">
     <img src="public/chaotic structure.png">
   </section>
 
@@ -74,7 +78,7 @@
         <li> Deaths. Each <code> Cell </code> with four or more neighbors dies from overpopulation. Every counter with
           one neighbor or none dies from isolation.</li>
         <li> Births. Each empty cell adjacent to exactly three neighbors--no more, no fewer--is a birth
-          <code>Cell</code>. A counter is placed on it at the next move.
+          <code>Cell</code>.
         </li>
       </ul>
     </div>
@@ -117,37 +121,6 @@
       # And the cycle begins again, as the cells continue their journey.
       return cells
     </code></pre>
-  </section>
-
-  <section>
-    <div>
-      <p>
-        Conway choose these rule after some experimentation in order that:
-      </p>
-
-      <ul>
-        <li> There should be no initial pattern for which there is a simple proof that the population can grow. </li>
-        <li> There should be initial patterns that apparently do grow without limit.</li>
-        <li> There should be simple initial patterns that grow and change for a considerable period of time before
-          coming to end in three possible ways: fading away completely (from overcrowding or becoming too sparse),
-          settling into a stable configuration that remains unchanged thereafter, or entering an oscillating phase in
-          which they repeat an endless cycle of two or more periods.</li>
-      </ul>
-    </div>
-  </section>
-
-
-  <section>
-    <div>
-      <ul>
-        <li> PHOEBE works on a defined ground and not an infinite universe, the natural evolution of the algorithm could
-          be outside the bounds (horizontally and vertically).</li>
-        <li> <code>Cells</code> near the bounds have only 5 (edges) or 3 (corners) neighbors.</li>
-        <li> Not every initial condition will give a result with enough floors as the blueprint.</li>
-        <li> If the algorithm encounters a stable or an oscillating phase, the skyscraper will enter in a rhythmical
-          phase.</li>
-      </ul>
-    </div>
   </section>
 
   <section>
@@ -204,17 +177,101 @@
   </code></pre>
   </section>
 
-  <section>
+  <section id="pannustheka">
     <div>
       <h6> PHOEBE IS CLOTH</h6>
       <h2> PANNUSTHEKA </h2>
     </div>
+    <div>
+      <p> Pannusthka is a multidimensional library containing panels and all their own permutation.
+        The generic user desgin th panel, PHOEBE create a Reference and all the permutations and it adds them to
+        Pannustheka.
+        Small but powerful poems can create a virtual infinite library of <i> pannus</i> supporting PHOEBE.
+        The word panel is derived from this root, with its origins tracing back to the Old French panel, meaning "piece
+        of cloth, piece, or saddle cushion" (modern French panneau). This, in turn, comes from the Vulgar Latin
+        pannellus, a diminutive form of the Latin pannus, which also signifies "piece of cloth."
+      </p>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="centered">
+      <img src="public/pannustheka.png">
+    </div>
   </section>
 
   <section>
     <div>
-      <h6> PHOEBE IS MARCHING</h6>
-      <h2> PANNUSTHEKA </h2>
+      <p>
+        The basic items of pannustheka are the 14 generic panels redrawn in a grasshopper definition.
+      </p>
+      <p>
+        A digital poem then calculates and generates all the possible spatial permutations for every single panel. The
+        14 generic panels are now extended to 162 different configurations.
+      </p>
+    </div>
+    <div class="centered">
+      <img src="./public/14 standards.png">
+    </div>
+    <div>
+      <p>
+        Pannustheka has now a set of 14 shelves. On every shelf find place all the permutation of one specific generic
+        panel. The library could be considered as 2-dimensional. The addition of custom designed panels add a 3-dimen-
+        sionality to Pannustheka adding each time a new set of 14 shelves each containing all the permutation of a
+        custom designed generic panel. This new direction of the library take the name of <code>function</code>.
+      </p>
+    </div>
+    <div class="centered">
+      <img src="./public/pannustheka_1.png">
+    </div>
+  </section>
+
+  <section>
+    <pre><code class = "language-python">
+      class Pannustheka(object):
+    """
+    A library of wonders, where fabrics combine,  
+    Permutations of cloth, in threads they align.  
+    Each twist, each turn, a new piece unfolds,  
+    The library overflows with stories untold.
+    """
+    def __init__(self, reference, rotations_x, rotations_y, rotations_z, reflections):
+        """
+        The basket is empty, awaiting its fill,  
+        Garments of wonder, shaped by the will.  
+        Each fold and twist, a dance of delight,  
+        As the cloth transforms in the morning light.
+        """
+        # The permutations begin, each one unique,  
+        # Threads interwoven, a form to seek.
+        self.permutations = []
+
+        for mr in reflections:                    
+            for rz in rotations_z:
+                for rx in rotations_x:
+                    for ry in rotations_y:
+
+                        # The fabric is spun through mirrors and turns,  
+                        # Each pannus a story, a craft to discern.
+                        transformed_points = Pannus.transform_points(reference.points, mr, rx, ry, rz)
+                        pannus = Pannus(reference, rx, ry, rz, mr, transformed_points)
+
+                        # The library receives this freshly woven piece,  
+                        # A permutation created, its work to release.
+                        self.permutations.append(pannus)
+    </code></pre>
+  </section>
+
+  <section>
+    <div>
+      <p>
+        The position of the points is always defined with a list of 8 integers, representing the 8
+        vertex of the bounding box of the panel and can have a value of 0 (no point) or 1 (yes
+        point).
+      </p>
+    </div>
+    <div class="centered">
+      <p class="centered">[0, 1, 1, 0, 0, 1, 1, 0]</p>
     </div>
   </section>
 
@@ -223,6 +280,124 @@
 
 
 
+  <section id="marching-cubes">
+    <div>
+      <h6> PHOEBE IS MARCHING</h6>
+      <h2> MARCHING CUBES </h2>
+    </div>
+    <div>
+      <p>
+        The digital universe in which this algorithm runs is composed by voxels - Cell - and a point cloud. Each
+        point is on a vertex of at least one voxel. The Marching Cube poem, literally <i>marching</i>
+        through every voxel analyzes the position of the points on the vertex creating a <i>target</i> which at least
+        one panel in Pannustheka is able to match.
+      </p>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="centered">
+      <img src="public/Structure 001.png">
+    </div>
+  </section>
+
+  <section>
+    <pre><code class="language-python">       
+        if start_marching:
+
+            """
+            The call to arms is clear, the march begins,  
+            With troops assembled, the battle we win..
+            """
+            
+            marching_cube = MarchingCubes(interesting_cells, point_cloud)
+            marching_cube.set_scale_factor()
+
+            """
+            The battlefield is surveyed, the scale is set,  
+            The troops are measured, their positions are met.
+            """
+
+            marching_cube.run_marching_cubes(pannustheka)
+
+            """
+            The order is given, the troops advance,  
+            Cells and cubes in perfect stance.
+            """
+            
+            envelope = marching_cube.envelope
+            
+            """
+            The march complete, the envelope now holds,  
+            Victory secured, the story unfolds.
+            """
+
+        return envelope
+    </code></pre>
+  </section>
+
+  <section class="slide">
+    <div class="centered">
+      <img src="public/Structure 000.png">
+    </div>
+  </section>
+
+  <section>
+    <div>
+      <p>
+        The point cloud is a necessary geometry that needs to be generated for the marching cube algorithm to work. To
+        build the facade PHOEBE is not interested in the cells generated by the cellular automata, but on all the
+        vertices of them.
+      </p>
+    </div>
+  </section>
+
+  <section class="carousel">
+    <div class="carousel">
+      <img src="/public/MC_Voxels.png" class="carousel">
+      <img src="/public/MC_Points.png" class="carousel">
+      <img src="/public/MC_Panels.png" class="carousel">
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="centered">
+      <img src="public/Structure 003.png">
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="centered">
+      <img src="public/Structure 004.png">
+    </div>
+  </section>
+
+
+  <section id="poetry" class="slide">
+    <div>
+      <h6> PHOEBE IS POETRY </h6>
+      <h2> COMPONENTS </h2>
+    </div>
+
+    <div>
+      <p>Here, the main poems of which PHOEBE is made.</p>
+    </div>
+
+    <div class="buttons-container">
+      <button onclick="location.href = './create-terrain.html'">CREATE TERRAIN</button>
+      <button onclick="location.href = './create-alive-scheme.html'">CREATE ALIVE SCHEME</button>
+      <button onclick="location.href = './create-floor.html'"> CREATE FLOOR</button>
+      <button onclick="location.href = './create-blueprint.html'"> CREATE BLUEPRINT</button>
+      <button onclick="location.href = './cellular-automata.html'"> CELLULAR AUTOMATA </button>
+
+      <button onclick="location.href = './create-reference.html'"> CREATE REFERENCE </button>
+      <button onclick="location.href = './generate-pannustheka.html'"> GENERATE PANNUSTHEKA </button>
+      <button onclick="location.href = './export-pannustheka.html'"> EXPORT PANNUSTHEKA </button>
+
+      <button onclick="location.href = 'generate-point-cloud'"> GENERATE POINT CLOUD </button>
+      <button onclick="location.href = 'marching-cubes'"> MARCHING CUBES </button>
+    </div>
+  </section>
   <script src="prism.js"></script>
 </body>
 

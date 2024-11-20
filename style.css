@@ -23,7 +23,16 @@ section{
   padding-right: 5vw;
   padding-top: 5vh;
   padding-bottom: 5vh;
+}
+
+section.slide{
+  height: 95vh;
   scroll-snap-align: start;
+}
+
+.centered{
+  display: flex;
+  justify-content: center;
 }
 
 h1{
@@ -60,6 +69,18 @@ p.phoebe-is{
   font-weight: bold;
 }
 
+a{
+  color: fuchsia;
+  font-size: 30px;
+  display: block;
+  text-decoration: none;
+  font-style: italic;
+  text-align: center;
+}
+a:hover{
+  font-style: normal;
+}
+
 
 li{
   font-size: 30px;
@@ -91,28 +112,53 @@ div#pasteLinkDiv{
 
 
 button{
-  width: 7vw;
+  width: auto;
   display: inline;
-  padding: 0%;
-  height: 43px;
+  padding: 15px;
+  height: auto;
   margin: 2px;
   vertical-align: top;
-  color: black;
+  color: fuchsia;
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  border: 2px solid fuchsia;
+  box-shadow: none;
+  outline: none;
+  font-size: 20px;
 }
 
 button:hover{
-  background-color: black;
+  background-color: fuchsia;
   color: white;
 }
 
-img{
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
+.buttons-container{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  margin: 0px;
+
+  margin-top: 50px;
 }
+
+img{
+  height: 95vh;
+  margin: auto
+}
+
+img.carousel{
+  position: relative;
+  display: inline;
+  height: 50vh;
+  margin: auto;
+}
+
+section.carousel{
+  display: flex;
+  justify-content: center;
+}
+
 
 
 .token.comment { color: fuchsia !important; } /* Comments */
