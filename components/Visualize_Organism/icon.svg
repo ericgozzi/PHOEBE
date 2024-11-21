@@ -1,0 +1,101 @@
+<svg version="1.1" baseProfile="full" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lineare7f10adf8bce" gradientUnits="userSpaceOnUse" x1="12.39585" y1="21.5" x2="12.39585" y2="3.5">
+      <stop offset="0%" style="stop-color:#E64980;" />
+      <stop offset="100%" style="stop-color:#FFDEEB;" />
+    </linearGradient>
+    <linearGradient id="linear8d6a6eff3100" gradientUnits="userSpaceOnUse" x1="12.39585" y1="21.5" x2="12.39585" y2="3.5">
+      <stop offset="0%" style="stop-color:#E64980;" />
+      <stop offset="100%" style="stop-color:#FFDEEB;" />
+    </linearGradient>
+    <linearGradient id="linear81d58d066950" gradientUnits="userSpaceOnUse" x1="12.39585" y1="21.5" x2="12.39585" y2="3.5">
+      <stop offset="0%" style="stop-color:#E64980;" />
+      <stop offset="100%" style="stop-color:#FFDEEB;" />
+    </linearGradient>
+    <linearGradient id="linear62293f431d2a" gradientUnits="userSpaceOnUse" x1="12.39585" y1="21.5" x2="12.39585" y2="3.5">
+      <stop offset="0%" style="stop-color:#E64980;" />
+      <stop offset="100%" style="stop-color:#FFDEEB;" />
+    </linearGradient>
+    <linearGradient id="linearf44ce8bade29" gradientUnits="userSpaceOnUse" x1="12.39585" y1="21.5" x2="12.39585" y2="3.5">
+      <stop offset="0%" style="stop-color:#E64980;" />
+      <stop offset="100%" style="stop-color:#FFDEEB;" />
+    </linearGradient>
+    <linearGradient id="lineare877d985cc61" gradientUnits="userSpaceOnUse" x1="12.39585" y1="21.5" x2="12.39585" y2="3.5">
+      <stop offset="0%" style="stop-color:#E64980;" />
+      <stop offset="100%" style="stop-color:#FFDEEB;" />
+    </linearGradient>
+    <linearGradient id="linear054141d6ebe6" gradientUnits="userSpaceOnUse" x1="12.39585" y1="21.5" x2="12.39585" y2="3.5">
+      <stop offset="0%" style="stop-color:#E64980;" />
+      <stop offset="100%" style="stop-color:#FFDEEB;" />
+    </linearGradient>
+    <linearGradient id="linear086d699f32ca" gradientUnits="userSpaceOnUse" x1="12.39585" y1="21.5" x2="12.39585" y2="3.5">
+      <stop offset="0%" style="stop-color:#E64980;" />
+      <stop offset="100%" style="stop-color:#FFDEEB;" />
+    </linearGradient>
+    <linearGradient id="linear4f9bbf68b214" gradientUnits="userSpaceOnUse" x1="12.39585" y1="21.5" x2="12.39585" y2="3.5">
+      <stop offset="0%" style="stop-color:#E64980;" />
+      <stop offset="100%" style="stop-color:#FFDEEB;" />
+    </linearGradient>
+    <linearGradient id="linear29ff09bc6b9a" gradientUnits="userSpaceOnUse" x1="12.39585" y1="21.5" x2="12.39585" y2="3.5">
+      <stop offset="0%" style="stop-color:#E64980;" />
+      <stop offset="100%" style="stop-color:#FFDEEB;" />
+    </linearGradient>
+    <linearGradient id="linearae24befb7ae2" gradientUnits="userSpaceOnUse" x1="12.39585" y1="21.5" x2="12.39585" y2="3.5">
+      <stop offset="0%" style="stop-color:#E64980;" />
+      <stop offset="100%" style="stop-color:#FFDEEB;" />
+    </linearGradient>
+    <linearGradient id="linear0ebd4921e994" gradientUnits="userSpaceOnUse" x1="12.39585" y1="21.5" x2="12.39585" y2="3.5">
+      <stop offset="0%" style="stop-color:#E64980;" />
+      <stop offset="100%" style="stop-color:#FFDEEB;" />
+    </linearGradient>
+    <linearGradient id="linearf117cbc330dd" gradientUnits="userSpaceOnUse" x1="12.39585" y1="21.5" x2="12.39585" y2="3.5">
+      <stop offset="0%" style="stop-color:#E64980;" />
+      <stop offset="100%" style="stop-color:#FFDEEB;" />
+    </linearGradient>
+    <linearGradient id="linear47adc7db57a0" gradientUnits="userSpaceOnUse" x1="12.39585" y1="21.5" x2="12.39585" y2="3.5">
+      <stop offset="0%" style="stop-color:#E64980;" />
+      <stop offset="100%" style="stop-color:#FFDEEB;" />
+    </linearGradient>
+    <linearGradient id="linear8034e491afc1" gradientUnits="userSpaceOnUse" x1="12.39585" y1="21.5" x2="12.39585" y2="3.5">
+      <stop offset="0%" style="stop-color:#E64980;" />
+      <stop offset="100%" style="stop-color:#FFDEEB;" />
+    </linearGradient>
+    <linearGradient id="linearbbfbaf4dbe40" gradientUnits="userSpaceOnUse" x1="12.39585" y1="21.5" x2="12.39585" y2="3.5">
+      <stop offset="0%" style="stop-color:#E64980;" />
+      <stop offset="100%" style="stop-color:#FFDEEB;" />
+    </linearGradient>
+    <linearGradient id="linearf6908e524487" gradientUnits="userSpaceOnUse" x1="12.39585" y1="21.5" x2="12.39585" y2="3.5">
+      <stop offset="0%" style="stop-color:#E64980;" />
+      <stop offset="100%" style="stop-color:#FFDEEB;" />
+    </linearGradient>
+    <linearGradient id="lineara9acc8aace97" gradientUnits="userSpaceOnUse" x1="12.39585" y1="21.5" x2="12.39585" y2="3.5">
+      <stop offset="0%" style="stop-color:#E64980;" />
+      <stop offset="100%" style="stop-color:#FFDEEB;" />
+    </linearGradient>
+    <linearGradient id="linear840093a76440" gradientUnits="userSpaceOnUse" x1="12.39585" y1="21.5" x2="12.39585" y2="3.5">
+      <stop offset="0%" style="stop-color:#E64980;" />
+      <stop offset="100%" style="stop-color:#FFDEEB;" />
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="none">
+    <path d="M 2.5 21.5 L 2.5 18.5 L 5.5 18.5 L 5.5 21.5 L 2.5 21.5" fill="url(#lineare7f10adf8bce)" stroke="#A61E4D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 5.5 21.5 L 5.5 18.5 L 8.5 18.5 L 8.5 21.5 L 5.5 21.5" fill="url(#linear8d6a6eff3100)" stroke="#A61E4D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 11.5 21.5 L 11.5 18.5 L 14.5 18.5 L 14.5 21.5 L 11.5 21.5" fill="url(#linear81d58d066950)" stroke="#A61E4D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 17.5 21.5 L 17.5 18.5 L 20.5 18.5 L 20.5 21.5 L 17.5 21.5" fill="url(#linear62293f431d2a)" stroke="#A61E4D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 2.5 12.5 L 2.5 9.5 L 5.5 9.5 L 5.5 12.5 L 2.5 12.5" fill="url(#linearf44ce8bade29)" stroke="#A61E4D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 14.5 6.5 L 14.5 3.5 L 17.5 3.5 L 17.5 6.5 L 14.5 6.5" fill="url(#lineare877d985cc61)" stroke="#A61E4D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 11.5 9.5 L 11.5 6.5 L 14.5 6.5 L 14.5 9.5 L 11.5 9.5" fill="url(#linear054141d6ebe6)" stroke="#A61E4D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 17.5 9.5 L 17.5 6.5 L 20.5 6.5 L 20.5 9.5 L 17.5 9.5" fill="url(#linear086d699f32ca)" stroke="#A61E4D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 14.5 12.5 L 14.5 9.5 L 17.5 9.5 L 17.5 12.5 L 14.5 12.5" fill="url(#linear4f9bbf68b214)" stroke="#A61E4D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 17.5 15.5 L 17.5 12.5 L 20.5 12.5 L 20.5 15.5 L 17.5 15.5" fill="url(#linear29ff09bc6b9a)" stroke="#A61E4D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 8.5 12.5 L 8.5 9.5 L 11.5 9.5 L 11.5 12.5 L 8.5 12.5" fill="url(#linearae24befb7ae2)" stroke="#A61E4D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 2.5 9.5 L 2.5 6.5 L 5.5 6.5 L 5.5 9.5 L 2.5 9.5" fill="url(#linear0ebd4921e994)" stroke="#A61E4D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 5.5 15.5 L 5.5 12.5 L 8.5 12.5 L 8.5 15.5 L 5.5 15.5" fill="url(#linearf117cbc330dd)" stroke="#A61E4D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 2.5 18.5 L 2.5 15.5 L 5.5 15.5 L 5.5 18.5 L 2.5 18.5" fill="url(#linear47adc7db57a0)" stroke="#A61E4D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 11.5 18.5 L 11.5 15.5 L 14.5 15.5 L 14.5 18.5 L 11.5 18.5" fill="url(#linear8034e491afc1)" stroke="#A61E4D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 14.5 18.5 L 14.5 15.5 L 17.5 15.5 L 17.5 18.5 L 14.5 18.5" fill="url(#linearbbfbaf4dbe40)" stroke="#A61E4D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 8.5 18.5 L 8.5 15.5 L 11.5 15.5 L 11.5 18.5 L 8.5 18.5" fill="url(#linearf6908e524487)" stroke="#A61E4D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 11.5 15.5 L 11.5 12.5 L 14.5 12.5 L 14.5 15.5 L 11.5 15.5" fill="url(#lineara9acc8aace97)" stroke="#A61E4D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 5.5 6.5 L 5.5 3.5 L 8.5 3.5 L 8.5 6.5 L 5.5 6.5" fill="url(#linear840093a76440)" stroke="#A61E4D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>
