@@ -11,5 +11,5 @@ Give a look to the [example](EXAMPLE_PHOEBE.gh) in order to get to know PHOEBE.
 
 
 ## 🎉 INSTALL PARTY
-PHOEBE can live inside your grasshoppert too! Just drag and drop this [file](PHOEBE.gha) in the components folder and relaunch rhino and grasshopper. 
+PHOEBE can live inside your grasshoppert too! Just drag and drop the [PHOEBE.gha](PHOEBE.gha) file in the components folder and relaunch rhino and grasshopper. 
 🦏 PHOEBE is a close friend of Rhino 8.0 and later versions. 
