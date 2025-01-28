@@ -4,11 +4,7 @@ PHOEBE designs buildings. She lives inside Rhinoceros 3D and we can communicate 
 
 ![](https://github.com/ericgozzi/PHOEBE/blob/website/public/Structure%20001.png)
 
-
 Give a look to the [example](EXAMPLE_PHOEBE.gh) in order to get to know PHOEBE.
-
-- 🌍 Give a look to PHOEBE's wesbsite: https://phoebe.cosmicgarage.ch
-- 🧑‍🚀 And also to PHOEBE's creator chosmos: https://cosmicgarge.ch
 
 
 
@@ -24,3 +20,7 @@ PHOEBE is an ecosystem where insects grow. If you find some bugs pleas report th
 
 ## 🗨️ ANY SUGGESTION?
 PHOEBE is in constant evolution, join the  discussion!
+
+
+- 🌍 Give a look to PHOEBE's wesbsite: https://phoebe.cosmicgarage.ch
+- 🧑‍🚀 And also to PHOEBE's creator chosmos: https://cosmicgarge.ch
